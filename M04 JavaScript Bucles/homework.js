@@ -76,19 +76,14 @@ function colors(color) {
    switch (color) {
       case "blue":
          return `This is blue`;
-         break;
       case "red":
          return "This is red";
-         break;
       case "green":
          return "This is green";
-         break;
       case "orange":
          return "This is orange";
-         break;
       default:
          return "Color not found";
-         break;
          
    }
 }
@@ -199,10 +194,8 @@ function esVerdadero(valor) {
   switch (valor){
    case true:
       return 'Soy verdadero';
-      break;
    case false:
       return 'Soy falso';
-      break;
   }
 }
 
@@ -229,6 +222,7 @@ function doWhile(num) {
    } while (i < 8);
    return num;
 }
+
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
